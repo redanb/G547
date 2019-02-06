@@ -12,7 +12,7 @@
 #include <linux/uaccess.h>
 
 static dev_t device ;  // variable for device number
-static dev_t varx;//,y,z;
+static dev_t varx;
 static dev_t vary ;
 static dev_t varz ;
 static struct cdev c_devx;
